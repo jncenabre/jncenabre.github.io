@@ -105,6 +105,7 @@
   height: 300px;
 }
 
+
   .navbar {
     position: fixed;
     top: 0;
@@ -609,7 +610,7 @@
 
   .left {
     flex: 1;
-   
+    background-color:red;
 
     
     margin-top:100px;
@@ -672,18 +673,6 @@
     transform: translateY(-2px);
   }
 
-
-  #viewer-container {
-    flex: 1;
-    height: 50vh; /* adjust as needed */
-    width:10px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
-    margin-top:100px;
-  }
 
   .navbar {
     position: fixed;
@@ -1157,7 +1146,6 @@
 
 
   
-
 
 
 
