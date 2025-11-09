@@ -32,7 +32,7 @@ let mixer;
 loader.load('model/plane.glb', (gltf) => {
   const model = gltf.scene;
   scene.add(model);
-  model.position.set(0, 20, 20);
+  model.position.set(0, 0, 20);
 
   if (gltf.animations.length > 0) {
     mixer = new THREE.AnimationMixer(model);
